@@ -8,6 +8,7 @@ function testFunction.Init( ... )
 	myHero = Heroes.GetLocal()
 	myPlayer = Players.GetLocal()
 	itemSlots = {}
+	Log.Write(myHero)
 end
 
 testFunction.Init()
