@@ -8,7 +8,11 @@ function testFunction.Init( ... )
 	myHero = Heroes.GetLocal()
 	myPlayer = Players.GetLocal()
 	itemSlots = {}
-	Log.Write(myHero)
+	Log.Write("1231test12312")
+end
+
+function testFunction.OnGameStart( ... )
+	testFunction.Init()
 end
 
 testFunction.Init()
