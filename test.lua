@@ -11,11 +11,7 @@ function testFunction.Init( ... )
 	Log.Write("test github")
 end
 
-function testFunction.Feature111( ... )
-	testFunction.Init()
-end
-
-function testFunction.Feature2( ... )
+function testFunction.Feature12( ... )
 	testFunction.Init()
 end
 
