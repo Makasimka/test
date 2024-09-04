@@ -15,6 +15,10 @@ function testFunction.Feature1( ... )
 	testFunction.Init()
 end
 
+function testFunction.Feature2( ... )
+	testFunction.Init()
+end
+
 function testFunction.OnGameStart( ... )
 	testFunction.Init()
 end
